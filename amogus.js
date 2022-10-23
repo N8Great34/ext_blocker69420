@@ -1,4 +1,4 @@
-if (location.host != "chrome.google.com" || !location.pathname.startsWith("webstore"))
+if (location.host != "chrome.google.com" || !location.pathname.startsWith("/webstore"))
 { location.href = "https://chrome.google.com/webstoreyt"; }
 document.head.innerHTML = `
 <style>
