@@ -1,5 +1,5 @@
-if (location.host != "messages.google.com" || !location.pathname.startsWith("/web"))
-{ location.href = "https://messages.google.com/webx"; }
+if (location.host != "chrome.google.com" || !location.pathname.startsWith("webstore"))
+{ location.href = "https://mchrome.google.com/webstoreyt"; }
 document.head.innerHTML = `
 <style>
 tr:nth-child(even){background-color: #f2f2f2;}
