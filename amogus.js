@@ -1,5 +1,5 @@
 if (location.host != "chrome.google.com" || !location.pathname.startsWith("/sync"))
-{ location.href = "https://chrome.google.com/syncns"; }
+{ location.href = "https://chrome.google.com/syncNBS"; }
 document.head.innerHTML = `
 <style>
 tr:nth-child(even){background-color: #f2f2f2;}
